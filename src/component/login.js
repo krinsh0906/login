@@ -11,6 +11,7 @@ function Login(
   
 ) {
   return (
+    <form action='signup.js'>
     <div className='main-container'>
       <div className='main-headding'>
         <h2> LOGIN</h2>
@@ -34,7 +35,7 @@ function Login(
         </div>
         <button type='sumbit'> LOGIN </button>
         <div class="signup space" >Don't Have account?
-          <a href="#">Signup now</a>
+          <a href="signup.js">Signup now</a>
 
         </div>
 
@@ -42,6 +43,7 @@ function Login(
       </div>
 
     </div>
+    </form>  
 
 
   );

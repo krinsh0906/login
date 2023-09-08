@@ -1,0 +1,82 @@
+:root{
+    --default-color:#ffffff;
+    --default-text-color:#CC0066;
+    --white:#ffffff
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.signup-container{
+    margin: 7rem 0 0 30rem;
+    border: 1px solid var(--default-color);
+    height: 85vh;
+    width: 30rem;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+    border-radius: 2rem;
+}
+.signup-headding > h2{
+    padding: 1rem;
+    font-style: 0.8rem;
+    font-size: 2rem;
+    color: #CC0066;
+    margin: 1rem 0 0 2rem;
+}
+.signup-input{
+    margin: 2rem 0 0 5rem;
+    
+}
+.signup-input  input{
+    height: 2rem;
+    width: 20rem;
+	background: transparent;
+    border: 1px solid;
+	outline: none;
+	color: #222;
+	font-size: 16px;
+	
+    
+
+}
+.space{
+    margin: 1rem 0 0 0;
+}
+button{
+    margin: 2rem 0 0 0;
+    height: 2rem;
+    width: 20rem;
+    letter-spacing: 0.1rem;
+    background-color: #CC0066;
+    border: none;
+    border-radius: 0.5rem;
+    
+}
+.forgotpass{
+    text-align: left;
+    margin: 10px 0;
+
+}
+.signup-forgotpass a{
+            color:#CC0066;
+            text-decoration: none;
+            
+}
+.signup-forgotspass:hover a{
+    text-decoration: underline;
+    color:#CC0066;
+}
+.signup-{
+    color:#CC0066;
+    font-size: 15px;
+    margin-left: 3rem;
+    
+}
+.signup- a{
+    color: #CC0066;
+    text-decoration: none;
+}
+.signup a:hover{
+            text-decoration: underline;
+            color: #CC0066;
+}
